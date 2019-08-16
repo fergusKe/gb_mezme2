@@ -1,0 +1,76 @@
+#container {
+	/*background: url(../images/default/bg.jpg) center center no-repeat;
+	background-size: cover;*/
+	font-size: 0;
+}
+.cont_box {
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.option {
+	display: inline-block;
+	border-radius: 10px;
+	width: 305px;
+	height: 268px;
+	overflow: hidden;
+	margin-top: 15px;
+	background: #FFF;
+	font-family: '微軟正黑體', serif;
+}
+.option img {
+	width: 100%;
+}
+.op1 {
+	background: #141414;
+}
+.op1 img {
+	position: relative;
+	top: 38px;
+}
+.op2 {
+	width: 631px;
+	text-align: center;
+	margin-left: 20px;
+}
+.op2 img {
+	position: relative;
+	top: 17px;
+	width: 83%;
+}
+.op4, .op5 {
+	margin-left: 20px;
+}
+.op3_cont {
+	font-size: 20px;
+	color: #333;
+	text-align: center;
+	margin-top: 78px;
+}
+.op3_cont h1 {
+	margin: 4px 0;
+}
+.op4_cont {
+	font-size: 18px;
+	color: #333;
+	text-align: center;
+	margin-top: 50px;
+}
+.op4_cont h1 {
+	font-size: 34px;
+	margin-bottom: 4px;
+	line-height: 40px;
+}
+.op4_cont p {
+	line-height: 28px;
+}
+.op5_cont {
+	font-size: 20px;
+	color: #333;
+	text-align: center;
+	margin-top: 98px;
+}
+.op5_cont h1 {
+	font-size: 38px;
+}

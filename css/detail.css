@@ -1,0 +1,256 @@
+#wrapper {
+	background: url(../images/default/bg.jpg) center center no-repeat;
+	background-size: cover;
+}
+#header {
+	height: 153px;
+	background: none;
+}
+#container {
+	/*background: url(../images/default/bg.jpg) center center no-repeat;
+	background-size: cover;*/
+	font-size: 0;
+	font-family: '微軟正黑體', serif;
+	padding-top: 15px;
+}
+.cont_box {
+	width: 960px;
+	margin: 0 auto;
+	/*padding-top: 80px;*/
+	/*padding-bottom: 80px;*/
+	background: #FFF;
+	/*margin-top: 15px;*/
+}
+#breadcrumb {
+	font-size: 16px;
+	padding: 15px 35px 0;
+}
+#breadcrumb a {
+	text-decoration: none;
+	color: #333;
+}
+#detail {
+	position: relative;
+	/*background: #D9D5A7;*/
+	margin: 30px 0 50px;
+}
+#detail .color {
+	margin-top: 20px;
+	text-align: center;
+}
+#detail .info .color ul {
+	padding: 0;
+}
+#detail .color ul li {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	border-radius: 6px;
+	
+	cursor: pointer;
+	border: 1px solid #000;
+}
+#detail .color ul li~li {
+	margin-left: 8px;
+}
+#detail .color_1 {
+	background: #BB8138;
+}
+#detail .color_2 {
+	background: #1D2E4C;
+}
+#detail .color_3 {
+	background: #1A5D65;
+}
+#detail .product {
+	width: 650px;
+	height: 500px;
+	padding: 0 0 0 35px;
+}
+#detail .product img {
+	width: 100%;
+	height: 100%;
+}
+#detail .info {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 16px;
+	font-family: '微軟正黑體', serif;
+	margin: 64px 30px 0;
+}
+#detail .info h1 {
+	font-size: 26px;
+	text-align: center;
+}
+#detail .info h3 {
+	font-size: 22px;
+	font-weight: 400;
+	margin: 5px 0 3px;
+}
+#detail .info ul {
+	padding-left: 24px;
+}
+#detail .info ul li {
+	list-style: initial;
+}
+#detail .info .icon {
+	padding: 15px 0 15px 0;
+	margin: 12px 0 0;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	text-align: center;
+}
+#detail .icon a{
+	text-decoration: none;
+	font-size: 25px;
+	color: #1D2E4C;
+}
+#detail .icon li {
+	margin-right: 12px;
+}
+#detail #Like {
+	display: inline-block;
+	/*padding: 12px 15px;*/
+	border: 1px solid #000;
+	border-radius: 10px;
+	cursor: pointer;
+	/*margin-top: 20px;*/
+	font-size: 20px;
+	font-weight: 700;
+	font-family: initial;
+	position: absolute;
+	width: 110px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	left: 0;
+	right: 0;
+	margin: 20px auto 0;
+}
+#detail #Like:hover {
+	background: #EC4399;
+}
+
+
+.might_like {
+	width: 600px;
+	height: 100px;
+	background: #000;
+	margin: 0 auto;
+}
+.might_like p {
+	font-size: 20px;
+	font-weight: 700;
+	color: #FFF;
+	line-height: 100px;
+	margin-left: 100px;
+	font-family: serif;
+}
+.might_like_list {
+	/*background: #FAAD8E;*/
+	width: 742px;
+	margin: 30px auto 100px;
+	padding-bottom: 7px;
+}
+.might_like_list ul li {
+	position: relative;
+	display: inline-block;
+	width: 238px;
+	height: 382px;
+	background: #EAE8E5;
+	margin: 7px 0 0 7px;
+	cursor: pointer;
+}
+.might_like_list img {
+	width: 100%;
+	margin-top: 104px;
+}
+
+.mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0, .4);
+	width: 100%;
+	height: 100%;
+	font-family: '微軟正黑體', serif;
+	text-align: center;
+	opacity: 0;
+	z-index: 1;
+}
+.mask p {
+	display: inline-block;
+	font-size: 19px;
+	margin-top: 260px;
+	font-family: serif;
+	opacity: 0;
+	color: #FFF;
+	transform:translate(0, 10px);
+	/*line-height: 382px;*/
+}
+.mask span {
+	display: block;
+	width: 0;
+	height: 1px;
+	background: #FFF;
+	margin: 0 auto;
+}
+.mask h2 {
+	font-size: 19px;
+	margin-top: 20px;
+	font-family: sans-serif;
+	opacity: 0;
+	color: #FFF;
+	transform:translate(0, 10px);
+}
+ li:hover .mask {
+	opacity: 1;
+	transition: .5s;
+}
+ li:hover .mask p {
+ 	opacity: 1;
+ 	transform:translate(0, 0);
+ 	transition: 1s .5s;
+}
+
+ li:hover .mask h2 {
+ 	opacity: 1;
+ 	transform:translate(0, 0);
+ 	transition: .5s;
+}
+
+#other {
+	width: 742px;
+	background: #FAAD8E;
+	margin: 0 auto;
+	padding-bottom: 7px;
+	margin-bottom: 50px;
+}
+#other p {
+	font-size: 24px;
+	text-align: center;
+	font-family: '微軟正黑體', serif;
+	margin-bottom: 30px;
+}
+#other ul li {
+	display: inline-block;
+	width: 238px;
+	height: 150px;
+	background: #BD5532;
+	margin: 7px 0 0 7px;
+}
+#other img {
+	width: 100%;
+	height: 100%;
+}
+#scroll_top {
+	width: 100%;
+	height: 50px;
+	background: #9EC6B8;
+	font-size: 16px;
+	text-align: center;
+	color: #FFF;
+	line-height: 50px;
+	cursor: pointer;
+}
